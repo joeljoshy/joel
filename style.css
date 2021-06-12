@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    
+    font-size: 2rem;
+    font-weight: 700;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 0 0.8rem;
+}   
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active{
+    color: #FFE400;
+}
+#navbarSupportedContent > button{
+    background: #FFE400;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    border: none;
+
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mid .joel{
+    color: #FFE400;
+}
+
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events:none;
+    object-fit: cover; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mid .hero{
+    position: relative;
+}
+.mid .hero p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1rem;
+}
+
+.mid .hero a{
+    background: #FFE400;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.mid .hero a:hover{
+    background: white;
+    
+}
+.about{
+    background-color: #000;
+}
+
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6{
+    color: #FFE400;
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.about .text P{
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.about .text a{
+    text-decoration: none;
+    background: #FFE400;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    color: #111;
+}
+
+.discovery{
+   
+}
+
+.discovery .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.discovery .text h6{
+    color: #111;
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.discovery .text h2{
+    color: #111;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.discovery .text P{
+    
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.discovery .text a{
+    text-decoration: none;
+    background: #111;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    color: #FFE400;
+}
+.service{
+    background-color: black;
+}
+
+.service .one{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+}
+
+
+
+.sign .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.sign .text h6{
+    color: #111;
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.sign .text h2{
+    color: #111;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.sign .text P{
+    
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.sign .text a{
+    text-decoration: none;
+    background: #111;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    color: #FFE400;
+}
+
+body > footer{
+    background-color: #111 !important ;
+}
+
+body > footer > ul.list-unstyled.list-inline.text-center.py-2 > li:nth-child(2) > a{
+    background: #FFE400;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+    border: none;
+}
+
+.service .title{
+    color: #111;
+    font-weight: 600;
+    
+    
+}
+
+@media screen and (max-width:988px){
+    .navbar{
+        padding: 1rem ;
+    }
+    #navbarSupportedContent > ul {
+        padding-left: 0.8rem;
+    }
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding: 0.8rem 0;
+    }
+    
+}
+
+.account{
+    text-decoration: none;
+    color:#FFE400 ;
+}
